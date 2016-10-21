@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: Green;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController">
+   <children>
+      <ButtonBar buttonMinWidth="90.0" layoutX="480.0" layoutY="560.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="NewGameButton" mnemonicParsing="false" onMouseClicked="#NewGameClick" prefHeight="27.0" text="New Game" />
+            <Button fx:id="DealButton" mnemonicParsing="false" onMouseClicked="#DealClick" prefWidth="300.0" text="Deal" />
+            <Button fx:id="ExitButton" mnemonicParsing="false" onMouseClicked="#ExitClick" text="Exit" />
+        </buttons>
+      </ButtonBar>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="60.0" layoutY="214.0" stroke="BLACK" strokeType="INSIDE" width="60.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="10.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="60.0" layoutX="380.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="60.0" AnchorPane.topAnchor="10.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="60.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="60.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="280.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="60.0" layoutX="380.0" layoutY="512.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <HBox fx:id="cardBox" layoutX="52.0" layoutY="411.0" prefHeight="100.0" prefWidth="717.0">
+         <children>
+            <ImageView fx:id="card1" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card2" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card3" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card4" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card5" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card6" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card7" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card8" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card9" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card10" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card11" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card12" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="card13" fitHeight="70.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <Text layoutX="392.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gary">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="392.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tim">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="742.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sam">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
